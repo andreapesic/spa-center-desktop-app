@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{25A5598E-CD9E-4950-B4A6-CA416447E21B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Client</RootNamespace>
+    <AssemblyName>Client</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientManager.cs" />
+    <Compile Include="Exceptions\ServerCommunicationException.cs" />
+    <Compile Include="Exceptions\SystemOperationException.cs" />
+    <Compile Include="FormControllers\FrmMainController.cs" />
+    <Compile Include="FormControllers\FrmLoginController.cs" />
+    <Compile Include="FormControllers\FrmUnosNezeljenogEfektaController.cs" />
+    <Compile Include="FormControllers\UCDodajKlijentaController.cs" />
+    <Compile Include="FormControllers\UCDodajRacunarskeKomponenteController.cs" />
+    <Compile Include="FormControllers\UCDodajTermineController.cs" />
+    <Compile Include="FormControllers\UCDodajUsluguController.cs" />
+    <Compile Include="FormControllers\UCIzmeniObrisiKlijentaController.cs" />
+    <Compile Include="FormControllers\UCObrisiUsluguController.cs" />
+    <Compile Include="FormControllers\UCPretraziObrisiTerminController.cs" />
+    <Compile Include="Forms\FrmUnosNezeljenogEfekta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmUnosNezeljenogEfekta.Designer.cs">
+      <DependentUpon>FrmUnosNezeljenogEfekta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormHelpers\ValidationHelper.cs" />
+    <Compile Include="ServerCommunication\Communication.cs" />
+    <Compile Include="UserControls\UCDodajKlijenta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCDodajKlijenta.Designer.cs">
+      <DependentUpon>UCDodajKlijenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCDodajRacunarskeKomponente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCDodajRacunarskeKomponente.Designer.cs">
+      <DependentUpon>UCDodajRacunarskeKomponente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCDodajTermine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCDodajTermine.Designer.cs">
+      <DependentUpon>UCDodajTermine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCDodajUslugu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCDodajUslugu.Designer.cs">
+      <DependentUpon>UCDodajUslugu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCIzmeniObrisiKlijenta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCIzmeniObrisiKlijenta.Designer.cs">
+      <DependentUpon>UCIzmeniObrisiKlijenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCObrisiUslugu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCObrisiUslugu.Designer.cs">
+      <DependentUpon>UCObrisiUslugu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCPretraziObrisiTermin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCPretraziObrisiTermin.Designer.cs">
+      <DependentUpon>UCPretraziObrisiTermin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmUnosNezeljenogEfekta.resx">
+      <DependentUpon>FrmUnosNezeljenogEfekta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControls\UCDodajKlijenta.resx">
+      <DependentUpon>UCDodajKlijenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCDodajRacunarskeKomponente.resx">
+      <DependentUpon>UCDodajRacunarskeKomponente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCDodajTermine.resx">
+      <DependentUpon>UCDodajTermine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCDodajUslugu.resx">
+      <DependentUpon>UCDodajUslugu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCIzmeniObrisiKlijenta.resx">
+      <DependentUpon>UCIzmeniObrisiKlijenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCObrisiUslugu.resx">
+      <DependentUpon>UCObrisiUslugu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCPretraziObrisiTermin.resx">
+      <DependentUpon>UCPretraziObrisiTermin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Communication\Communication.csproj">
+      <Project>{92F3E986-E812-4C5C-8FB8-A95169F727D5}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{7B959988-36EC-4629-A8A3-10E2B569FFF9}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
