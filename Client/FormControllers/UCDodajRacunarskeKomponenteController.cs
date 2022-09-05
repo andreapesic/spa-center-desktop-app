@@ -1,4 +1,5 @@
 ﻿using Client.Exceptions;
+using Client.FormHelpers;
 using Communication;
 using Domain;
 using System;
@@ -26,6 +27,16 @@ namespace Client.FormControllers
 
         internal void DodajRacunarskuKomponentu(DataGridView dgvRacunarskeKomponente, TextBox txtNaziv, RichTextBox rtbOpis, ComboBox cbTip)
         {
+            if(!ValidationHelper.EmptyFieldValidation(txtNaziv))
+            {
+                return;
+            }
+
+            if(!ValidationHelper.ComboBoxValidation(cbTip))
+            {
+                return;
+            }
+
             RacunarskaKomponenta rk = new RacunarskaKomponenta
             {
                 Naziv = txtNaziv.Text,
@@ -35,10 +46,10 @@ namespace Client.FormControllers
 
             try
             {
-                //List<RacunarskaKomponenta> komponenteBaza = ServerCommunication.Communication.Instance.SendRequestGetResult<List<RacunarskaKomponenta>>
-                   // (Operation.VratiRacunarskeKomponente, null);
+                List<RacunarskaKomponenta> komponenteBaza = ServerCommunication.Communication.Instance.SendRequestGetResult<List<RacunarskaKomponenta>>
+                   (Operation.VratiRacunarskeKomponente, null);
 
-                if (komponente.Any(x => x.Naziv.Equals(rk.Naziv)))
+                if (komponente.Any(x => x.Naziv.Equals(rk.Naziv)) || komponenteBaza.Any(x => x.Naziv.Equals(rk.Naziv)))
                 {
                     MessageBox.Show("Ne mozete uneti dve komponente sa istim nazivom.");
                     return;

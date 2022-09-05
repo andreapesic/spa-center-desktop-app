@@ -53,7 +53,7 @@ namespace Domain
                 result.Add(new RacunarskaKomponenta
                 {
                     Id = (int)reader["Id"],
-                    Naziv = (string)reader["Naizv"],
+                    Naziv = (string)reader["Naziv"],
                     Opis = (string)reader["Opis"],
                     Tip = (Tip)Enum.Parse(typeof(Tip), (string)reader["Tip"]),
 

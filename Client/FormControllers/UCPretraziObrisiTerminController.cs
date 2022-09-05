@@ -20,7 +20,7 @@ namespace Client.FormControllers
         private BindingList<Termin> termini = new BindingList<Termin>();
         private readonly string senderEmail = "andrea.softveri.spacentar@gmail.com";
         private readonly string senderPassword = "dnttozzavgawlqnw";
-        private readonly string baseImagePath = @"Resources/";
+        private readonly string baseImagePath = @"C:\Users\Andrea\Desktop\";
 
         internal void PripremiFormu(DataGridView dgvTermini, ComboBox cbKlijentKriterijum)
         {
