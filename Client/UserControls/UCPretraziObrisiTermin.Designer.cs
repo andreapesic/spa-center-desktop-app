@@ -73,7 +73,7 @@ namespace Client.UserControls
             this.lblDveTacke.BackColor = System.Drawing.Color.Transparent;
             this.lblDveTacke.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDveTacke.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblDveTacke.Location = new System.Drawing.Point(236, 181);
+            this.lblDveTacke.Location = new System.Drawing.Point(314, 179);
             this.lblDveTacke.Name = "lblDveTacke";
             this.lblDveTacke.Size = new System.Drawing.Size(15, 20);
             this.lblDveTacke.TabIndex = 44;
@@ -82,7 +82,7 @@ namespace Client.UserControls
             // txtMinuti
             // 
             this.txtMinuti.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMinuti.Location = new System.Drawing.Point(257, 178);
+            this.txtMinuti.Location = new System.Drawing.Point(335, 176);
             this.txtMinuti.Name = "txtMinuti";
             this.txtMinuti.Size = new System.Drawing.Size(43, 27);
             this.txtMinuti.TabIndex = 43;
@@ -93,7 +93,7 @@ namespace Client.UserControls
             this.lblVreme.BackColor = System.Drawing.Color.Transparent;
             this.lblVreme.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVreme.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblVreme.Location = new System.Drawing.Point(89, 181);
+            this.lblVreme.Location = new System.Drawing.Point(167, 179);
             this.lblVreme.Name = "lblVreme";
             this.lblVreme.Size = new System.Drawing.Size(58, 20);
             this.lblVreme.TabIndex = 42;
@@ -102,7 +102,7 @@ namespace Client.UserControls
             // txtSati
             // 
             this.txtSati.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSati.Location = new System.Drawing.Point(187, 178);
+            this.txtSati.Location = new System.Drawing.Point(265, 176);
             this.txtSati.Name = "txtSati";
             this.txtSati.Size = new System.Drawing.Size(43, 27);
             this.txtSati.TabIndex = 41;
@@ -110,7 +110,7 @@ namespace Client.UserControls
             // btnObrisiTermin
             // 
             this.btnObrisiTermin.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnObrisiTermin.Location = new System.Drawing.Point(1350, 761);
+            this.btnObrisiTermin.Location = new System.Drawing.Point(1456, 769);
             this.btnObrisiTermin.Name = "btnObrisiTermin";
             this.btnObrisiTermin.Size = new System.Drawing.Size(155, 37);
             this.btnObrisiTermin.TabIndex = 40;
@@ -121,7 +121,7 @@ namespace Client.UserControls
             // btnPretrazi
             // 
             this.btnPretrazi.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPretrazi.Location = new System.Drawing.Point(588, 478);
+            this.btnPretrazi.Location = new System.Drawing.Point(515, 478);
             this.btnPretrazi.Name = "btnPretrazi";
             this.btnPretrazi.Size = new System.Drawing.Size(190, 37);
             this.btnPretrazi.TabIndex = 39;
@@ -132,7 +132,7 @@ namespace Client.UserControls
             // rtbNapomena
             // 
             this.rtbNapomena.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbNapomena.Location = new System.Drawing.Point(185, 258);
+            this.rtbNapomena.Location = new System.Drawing.Point(263, 256);
             this.rtbNapomena.Name = "rtbNapomena";
             this.rtbNapomena.Size = new System.Drawing.Size(310, 81);
             this.rtbNapomena.TabIndex = 38;
@@ -141,7 +141,7 @@ namespace Client.UserControls
             // nudBrojProstorije
             // 
             this.nudBrojProstorije.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudBrojProstorije.Location = new System.Drawing.Point(186, 216);
+            this.nudBrojProstorije.Location = new System.Drawing.Point(264, 214);
             this.nudBrojProstorije.Maximum = new decimal(new int[] {
             20,
             0,
@@ -167,7 +167,7 @@ namespace Client.UserControls
             this.lblVaucer.BackColor = System.Drawing.Color.Transparent;
             this.lblVaucer.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVaucer.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblVaucer.Location = new System.Drawing.Point(85, 358);
+            this.lblVaucer.Location = new System.Drawing.Point(163, 356);
             this.lblVaucer.Name = "lblVaucer";
             this.lblVaucer.Size = new System.Drawing.Size(62, 20);
             this.lblVaucer.TabIndex = 36;
@@ -177,7 +177,7 @@ namespace Client.UserControls
             // 
             this.cbVaucer.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbVaucer.FormattingEnabled = true;
-            this.cbVaucer.Location = new System.Drawing.Point(186, 355);
+            this.cbVaucer.Location = new System.Drawing.Point(264, 353);
             this.cbVaucer.Name = "cbVaucer";
             this.cbVaucer.Size = new System.Drawing.Size(310, 28);
             this.cbVaucer.TabIndex = 35;
@@ -188,7 +188,7 @@ namespace Client.UserControls
             this.lblNapomena.BackColor = System.Drawing.Color.Transparent;
             this.lblNapomena.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNapomena.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblNapomena.Location = new System.Drawing.Point(55, 261);
+            this.lblNapomena.Location = new System.Drawing.Point(133, 259);
             this.lblNapomena.Name = "lblNapomena";
             this.lblNapomena.Size = new System.Drawing.Size(92, 20);
             this.lblNapomena.TabIndex = 34;
@@ -200,7 +200,7 @@ namespace Client.UserControls
             this.lblBrojProstorije.BackColor = System.Drawing.Color.Transparent;
             this.lblBrojProstorije.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBrojProstorije.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblBrojProstorije.Location = new System.Drawing.Point(29, 218);
+            this.lblBrojProstorije.Location = new System.Drawing.Point(107, 216);
             this.lblBrojProstorije.Name = "lblBrojProstorije";
             this.lblBrojProstorije.Size = new System.Drawing.Size(118, 20);
             this.lblBrojProstorije.TabIndex = 33;
@@ -210,7 +210,7 @@ namespace Client.UserControls
             // 
             this.dtpDatum.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpDatum.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDatum.Location = new System.Drawing.Point(187, 138);
+            this.dtpDatum.Location = new System.Drawing.Point(265, 136);
             this.dtpDatum.Name = "dtpDatum";
             this.dtpDatum.Size = new System.Drawing.Size(150, 27);
             this.dtpDatum.TabIndex = 32;
@@ -221,7 +221,7 @@ namespace Client.UserControls
             this.lblDatum.BackColor = System.Drawing.Color.Transparent;
             this.lblDatum.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDatum.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblDatum.Location = new System.Drawing.Point(85, 143);
+            this.lblDatum.Location = new System.Drawing.Point(163, 141);
             this.lblDatum.Name = "lblDatum";
             this.lblDatum.Size = new System.Drawing.Size(62, 20);
             this.lblDatum.TabIndex = 31;
@@ -233,7 +233,7 @@ namespace Client.UserControls
             this.lblUsluga.BackColor = System.Drawing.Color.Transparent;
             this.lblUsluga.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsluga.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblUsluga.Location = new System.Drawing.Point(85, 98);
+            this.lblUsluga.Location = new System.Drawing.Point(163, 96);
             this.lblUsluga.Name = "lblUsluga";
             this.lblUsluga.Size = new System.Drawing.Size(62, 20);
             this.lblUsluga.TabIndex = 30;
@@ -243,7 +243,7 @@ namespace Client.UserControls
             // 
             this.cbUsluga.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbUsluga.FormattingEnabled = true;
-            this.cbUsluga.Location = new System.Drawing.Point(186, 95);
+            this.cbUsluga.Location = new System.Drawing.Point(264, 93);
             this.cbUsluga.Name = "cbUsluga";
             this.cbUsluga.Size = new System.Drawing.Size(309, 28);
             this.cbUsluga.TabIndex = 29;
@@ -254,7 +254,7 @@ namespace Client.UserControls
             this.lblKlijent.BackColor = System.Drawing.Color.Transparent;
             this.lblKlijent.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKlijent.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblKlijent.Location = new System.Drawing.Point(87, 54);
+            this.lblKlijent.Location = new System.Drawing.Point(165, 52);
             this.lblKlijent.Name = "lblKlijent";
             this.lblKlijent.Size = new System.Drawing.Size(60, 20);
             this.lblKlijent.TabIndex = 28;
@@ -264,7 +264,7 @@ namespace Client.UserControls
             // 
             this.cbKlijent.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbKlijent.FormattingEnabled = true;
-            this.cbKlijent.Location = new System.Drawing.Point(186, 51);
+            this.cbKlijent.Location = new System.Drawing.Point(264, 49);
             this.cbKlijent.Name = "cbKlijent";
             this.cbKlijent.Size = new System.Drawing.Size(309, 28);
             this.cbKlijent.TabIndex = 27;
@@ -275,13 +275,13 @@ namespace Client.UserControls
             this.dgvTermini.AllowUserToDeleteRows = false;
             this.dgvTermini.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvTermini.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTermini.Location = new System.Drawing.Point(177, 537);
+            this.dgvTermini.Location = new System.Drawing.Point(112, 537);
             this.dgvTermini.MultiSelect = false;
             this.dgvTermini.Name = "dgvTermini";
             this.dgvTermini.ReadOnly = true;
             this.dgvTermini.RowHeadersWidth = 51;
             this.dgvTermini.RowTemplate.Height = 24;
-            this.dgvTermini.Size = new System.Drawing.Size(1328, 197);
+            this.dgvTermini.Size = new System.Drawing.Size(1479, 197);
             this.dgvTermini.TabIndex = 26;
             this.dgvTermini.SelectionChanged += new System.EventHandler(this.dgvTermini_SelectionChanged);
             // 
@@ -301,7 +301,7 @@ namespace Client.UserControls
             this.chbKlijentKriterijum.AutoSize = true;
             this.chbKlijentKriterijum.BackColor = System.Drawing.Color.Transparent;
             this.chbKlijentKriterijum.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbKlijentKriterijum.Location = new System.Drawing.Point(284, 265);
+            this.chbKlijentKriterijum.Location = new System.Drawing.Point(211, 265);
             this.chbKlijentKriterijum.Name = "chbKlijentKriterijum";
             this.chbKlijentKriterijum.Size = new System.Drawing.Size(82, 24);
             this.chbKlijentKriterijum.TabIndex = 45;
@@ -313,7 +313,7 @@ namespace Client.UserControls
             this.chbBrojProstorijeKriterijum.AutoSize = true;
             this.chbBrojProstorijeKriterijum.BackColor = System.Drawing.Color.Transparent;
             this.chbBrojProstorijeKriterijum.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbBrojProstorijeKriterijum.Location = new System.Drawing.Point(284, 402);
+            this.chbBrojProstorijeKriterijum.Location = new System.Drawing.Point(211, 402);
             this.chbBrojProstorijeKriterijum.Name = "chbBrojProstorijeKriterijum";
             this.chbBrojProstorijeKriterijum.Size = new System.Drawing.Size(140, 24);
             this.chbBrojProstorijeKriterijum.TabIndex = 46;
@@ -325,7 +325,7 @@ namespace Client.UserControls
             this.chbDatumVremeKriterijum.AutoSize = true;
             this.chbDatumVremeKriterijum.BackColor = System.Drawing.Color.Transparent;
             this.chbDatumVremeKriterijum.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbDatumVremeKriterijum.Location = new System.Drawing.Point(289, 332);
+            this.chbDatumVremeKriterijum.Location = new System.Drawing.Point(216, 332);
             this.chbDatumVremeKriterijum.Name = "chbDatumVremeKriterijum";
             this.chbDatumVremeKriterijum.Size = new System.Drawing.Size(143, 24);
             this.chbDatumVremeKriterijum.TabIndex = 47;
@@ -336,7 +336,7 @@ namespace Client.UserControls
             // 
             this.cbKlijentKriterijum.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbKlijentKriterijum.FormattingEnabled = true;
-            this.cbKlijentKriterijum.Location = new System.Drawing.Point(469, 263);
+            this.cbKlijentKriterijum.Location = new System.Drawing.Point(396, 263);
             this.cbKlijentKriterijum.Name = "cbKlijentKriterijum";
             this.cbKlijentKriterijum.Size = new System.Drawing.Size(309, 28);
             this.cbKlijentKriterijum.TabIndex = 48;
@@ -344,7 +344,7 @@ namespace Client.UserControls
             // nudBrojProstorijeKriterijum
             // 
             this.nudBrojProstorijeKriterijum.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudBrojProstorijeKriterijum.Location = new System.Drawing.Point(469, 399);
+            this.nudBrojProstorijeKriterijum.Location = new System.Drawing.Point(396, 399);
             this.nudBrojProstorijeKriterijum.Maximum = new decimal(new int[] {
             20,
             0,
@@ -368,7 +368,7 @@ namespace Client.UserControls
             // 
             this.dtpDatumKriterijum.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpDatumKriterijum.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDatumKriterijum.Location = new System.Drawing.Point(469, 328);
+            this.dtpDatumKriterijum.Location = new System.Drawing.Point(396, 328);
             this.dtpDatumKriterijum.Name = "dtpDatumKriterijum";
             this.dtpDatumKriterijum.Size = new System.Drawing.Size(162, 27);
             this.dtpDatumKriterijum.TabIndex = 50;
@@ -379,7 +379,7 @@ namespace Client.UserControls
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(713, 328);
+            this.label1.Location = new System.Drawing.Point(640, 328);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(15, 20);
             this.label1.TabIndex = 53;
@@ -388,7 +388,7 @@ namespace Client.UserControls
             // txtMinutiKriterijum
             // 
             this.txtMinutiKriterijum.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMinutiKriterijum.Location = new System.Drawing.Point(735, 328);
+            this.txtMinutiKriterijum.Location = new System.Drawing.Point(662, 328);
             this.txtMinutiKriterijum.Name = "txtMinutiKriterijum";
             this.txtMinutiKriterijum.Size = new System.Drawing.Size(43, 27);
             this.txtMinutiKriterijum.TabIndex = 52;
@@ -396,7 +396,7 @@ namespace Client.UserControls
             // txtSatiKriterijum
             // 
             this.txtSatiKriterijum.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSatiKriterijum.Location = new System.Drawing.Point(664, 328);
+            this.txtSatiKriterijum.Location = new System.Drawing.Point(591, 328);
             this.txtSatiKriterijum.Name = "txtSatiKriterijum";
             this.txtSatiKriterijum.Size = new System.Drawing.Size(43, 27);
             this.txtSatiKriterijum.TabIndex = 51;
@@ -422,9 +422,9 @@ namespace Client.UserControls
             this.gbDetalji.Controls.Add(this.txtSati);
             this.gbDetalji.Enabled = false;
             this.gbDetalji.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbDetalji.Location = new System.Drawing.Point(922, 101);
+            this.gbDetalji.Location = new System.Drawing.Point(869, 101);
             this.gbDetalji.Name = "gbDetalji";
-            this.gbDetalji.Size = new System.Drawing.Size(543, 414);
+            this.gbDetalji.Size = new System.Drawing.Size(722, 414);
             this.gbDetalji.TabIndex = 54;
             this.gbDetalji.TabStop = false;
             this.gbDetalji.Text = "Detalji";
@@ -432,7 +432,7 @@ namespace Client.UserControls
             // btnObavestiKlijenta
             // 
             this.btnObavestiKlijenta.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnObavestiKlijenta.Location = new System.Drawing.Point(1063, 761);
+            this.btnObavestiKlijenta.Location = new System.Drawing.Point(1169, 769);
             this.btnObavestiKlijenta.Name = "btnObavestiKlijenta";
             this.btnObavestiKlijenta.Size = new System.Drawing.Size(266, 37);
             this.btnObavestiKlijenta.TabIndex = 55;
@@ -463,7 +463,7 @@ namespace Client.UserControls
             this.Controls.Add(this.lblNaslov);
             this.DoubleBuffered = true;
             this.Name = "UCPretraziObrisiTermin";
-            this.Size = new System.Drawing.Size(1655, 794);
+            this.Size = new System.Drawing.Size(1720, 844);
             ((System.ComponentModel.ISupportInitialize)(this.nudBrojProstorije)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTermini)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudBrojProstorijeKriterijum)).EndInit();

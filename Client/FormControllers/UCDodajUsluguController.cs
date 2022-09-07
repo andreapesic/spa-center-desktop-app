@@ -111,9 +111,9 @@ namespace Client.FormControllers
                     n.SifraUsluge = u;
                 }
 
-
+                
                 ServerCommunication.Communication.Instance.SendRequestNoResult(Operation.ZapamtiUslugu, u);
-                MessageBox.Show("Uspesno ste sacuvali uslugu!");
+                MessageBox.Show("Sistem je uspešno zapamtio uslugu!");
 
                 txtNaziv.Text = "";
                 txtCena.Text = "";

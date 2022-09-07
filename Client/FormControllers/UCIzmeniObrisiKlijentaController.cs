@@ -179,9 +179,9 @@ namespace Client.FormControllers
                     MessageBox.Show("Vec postoji klijent sa unetim email-om!");
                     return;
                 }
-
+                
                 ServerCommunication.Communication.Instance.SendRequestNoResult(Operation.IzmeniKlijenta, k);
-                MessageBox.Show("Uspesno ste izmenili klijenta!");
+                MessageBox.Show("Sistem je uspešno izmenio klijenta!");
 
             }
             catch (SystemOperationException ex)

@@ -44,7 +44,6 @@
     <Compile Include="IDomainObject.cs" />
     <Compile Include="Klijent.cs" />
     <Compile Include="Korisnik.cs" />
-    <Compile Include="KriterijumPretrage.cs" />
     <Compile Include="NapomenaZaUslugu.cs" />
     <Compile Include="RacunarskaKomponenta.cs" />
     <Compile Include="Termin.cs" />

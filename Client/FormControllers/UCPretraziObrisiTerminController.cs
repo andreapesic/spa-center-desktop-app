@@ -221,7 +221,7 @@ namespace Client.FormControllers
                     {
                         SearchCondition = uslov
                     };
-
+                    
                     termini = new BindingList<Termin>(ServerCommunication.Communication.Instance.
                         SendRequestGetResult<List<Termin>>(Operation.PretraziTermine, termin));
 
@@ -250,15 +250,16 @@ namespace Client.FormControllers
             try
             {
                 ServerCommunication.Communication.Instance.SendRequestNoResult(Operation.ObrisiTermin, termin);
-                MessageBox.Show("Uspesno ste obrisali termin!");
+                MessageBox.Show("Sistem je uspešno obrisao termin!");
+                termini.Remove(termin);
+                InicijalizujTermine(dgvTermini);
             }
             catch (SystemOperationException ex)
             {
                 MessageBox.Show(ex.Message);
             }
 
-            termini.Remove(termin);
-            InicijalizujTermine(dgvTermini);
+           
         }
 
     }

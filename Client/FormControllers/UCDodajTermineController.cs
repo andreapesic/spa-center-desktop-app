@@ -112,9 +112,9 @@ namespace Client.FormControllers
                     MessageBox.Show("Nema termina za cuvanje!");
                     return;
                 }
-
+               
                 ServerCommunication.Communication.Instance.SendRequestNoResult(Operation.ZapamtiTermine, termini.ToList());
-                MessageBox.Show("Uspesno ste sacuvali termine!");
+                MessageBox.Show("Sistem je uspešno zapamtio termine!");
                 termini?.Clear();
                 InicijalizujTermine(dgvTermini);
                 IsprazniPolja(cbKlijent, cbUsluga, cbVaucer, dtpDatum, txtSati, txtMinuti, nudBrojProstorije, rtbNapomena);

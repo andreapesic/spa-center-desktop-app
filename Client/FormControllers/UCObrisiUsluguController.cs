@@ -183,15 +183,14 @@ namespace Client.FormControllers
             try
             {
                 ServerCommunication.Communication.Instance.SendRequestNoResult(Operation.ObrisiUslugu, usluga);
-                MessageBox.Show("Uspesno ste obrisali uslugu!");
+                MessageBox.Show("Sistem je uspešno obrisao uslugu!");
+                usluge.Remove(usluga);
+                InicijalizujUsluge(dgvUsluge);
             }
             catch (SystemOperationException ex)
             {
                 MessageBox.Show(ex.Message);
             }
-
-            usluge.Remove(usluga);
-            InicijalizujUsluge(dgvUsluge);
 
         }
 

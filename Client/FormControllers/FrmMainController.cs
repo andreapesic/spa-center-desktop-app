@@ -1,4 +1,5 @@
-﻿using Client.UserControls;
+﻿using Client.Exceptions;
+using Client.UserControls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,6 +45,14 @@ namespace Client.FormControllers
             try
             {
                 ServerCommunication.Communication.Instance.SendRequestNoResult(Communication.Operation.Logout, null);
+            }
+            catch (ServerCommunicationException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (SystemOperationException ex)
+            {
+                Console.WriteLine(ex.Message);
             }
             catch (Exception ex)
             {
